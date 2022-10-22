@@ -71,3 +71,39 @@ body{
                     0 1px 10px 0 purple inset, 0 1px 10px 0 purple; */
                   
                 }
+
+
+
+.cg h5{
+    color: white;
+}
+.cg button{
+         background-color: black;
+        position: relative;
+        text-align: center;
+        width: 90px;
+        padding: 10px;
+        font-size: 15px;
+        color: #15f4ee;
+        font-family: poppins;
+        /* font-weight: 100; */
+        border: 3px solid #15f4ee;
+         text-transform: uppercase;
+        /*letter-spacing: 5px; */
+        cursor: pointer;
+        border-radius: 15px;
+        transition: 1s;
+        text-decoration: none;}
+
+    .cg button:hover{ color: #15f4ee;
+        box-shadow: 0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee,
+                    0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee;
+                    /* box-shadow: 0 1px 10px 0 purple inset, 0 1px 10px 0 purple,
+                    0 1px 10px 0 purple inset, 0 1px 10px 0 purple; */
+                  
+                }
+
+
+                
+                
+                

@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+.contanier{
+    /* background-color: black; */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    z-index: -1;
+}
+.in{
+    width: 250px;
+    height: 28px;
+    border-radius: 10px;
+}
+.cent{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    /* margin-top: 50px; */
+    padding-top: 40px;
+    
+}
+.fo{
+     width: 30%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    margin-left: 35%;
+    height: 470px;
+    background-color: rgb(0, 0, 0);
+    position: absolute; 
+    border-radius: 20px; 
+
+
+
+    }
+
+
+
+.yo{
+    padding: 10px;
+    font-size: 25px;
+}
+.yo div{
+    padding-top: 25px;
+}
+.sub{
+text-align: center;
+
+}
+.sub input{
+    position: relative;
+        text-align: center;
+        width: 90px;
+        padding: 7px;
+      
+        font-size: 15px;
+        color: #15f4ee;
+        font-family: poppins;
+        /* font-weight: 100; */
+        border: 3px solid #15f4ee;
+         text-transform: uppercase;
+        /*letter-spacing: 5px; */
+        cursor: pointer;
+        border-radius: 15px;
+        transition: 1s;
+        text-decoration: none;
+
+}
+.sub input:hover{
+    color: #15f4ee;
+    box-shadow: 0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee,
+                0 1px 10px 0 #15f4ee inset, 0 1px 10px 0 #15f4ee;
+
+
+
+}
+#ji{
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;    
+}
+
+.fo::before , .fo::after{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top:-2px;
+    background: linear-gradient(45deg , #e6fb04 , #ff6600 , #00ff66 , #00ffff, #ff00ff,#ff0099,#6e0dd0,#ff3300,#099fff);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+
+    }
+    50%{
+        background-position: 400% 0;
+
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+.fo::after{
+    filter: blur(40px);
+    
+}
+
+#bus{
+    width:200px ;
+}

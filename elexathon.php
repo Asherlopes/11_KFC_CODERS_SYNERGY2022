@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <style>
+    <link rel="stylesheet" href="style.css">
+    <style>
       .cg h5,p{
     color: white;
 }
@@ -34,9 +34,14 @@
                     /* box-shadow: 0 1px 10px 0 purple inset, 0 1px 10px 0 purple,
                     0 1px 10px 0 purple inset, 0 1px 10px 0 purple; */
                   
-                }                
+                }
+
+
+                
+                
+                
     </style>
-  <title>MECHATHON</title>
+    <title>ELEXATHON</title>
 </head>
 <body>
 <?php
@@ -51,15 +56,15 @@
     </div>
     <div class="carousel-inner ">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="media/mechathon.jpeg" class="d-block w-100" alt="..." height="550px">
+        <img src="media/elex.jpeg" class="d-block w-100" alt="..." height="550px">
         <div class="carousel-caption d-none d-md-block cg">
-          <h5 style="color:white ;" >MECH-A-THON</h5>
-          <p style="color:white ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eius.</p>
-         <a href="event_register.php"> <button class="button1">REGISTER</button></a>
+          <h5>ELEX-A-THON</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eius.</p>
+          <a href="event_register.php"> <button class="button1">REGISTER</button></a>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="media/mechathon.jpeg" class="d-block w-100" alt="..." height="550px">
+        <img src="media/elex.jpeg" class="d-block w-100" alt="..." height="550px">
         <div class="carousel-caption d-none d-md-block cg">
           <h5>TIME</h5>
           <p>20th March </p>
@@ -68,18 +73,18 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="media/mechathon.jpeg" class="d-block w-100" alt="..." height="550px">
+        <img src="media/elex.jpeg" class="d-block w-100" alt="..." height="550px">
         <div class="carousel-caption d-none d-md-block cg">
           <h5>DEADLINE</h5>
           <p>24th march 2023</p>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampledark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampledark" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>

@@ -34,15 +34,11 @@
                     /* box-shadow: 0 1px 10px 0 purple inset, 0 1px 10px 0 purple,
                     0 1px 10px 0 purple inset, 0 1px 10px 0 purple; */
                   
-                }                
+                }            
     </style>
-  <title>MECHATHON</title>
+    <title>TECH_MECH</title>
 </head>
 <body>
-<?php
-    require("header.php");
-    include("db_connect.php");
-    ?>
   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -51,35 +47,26 @@
     </div>
     <div class="carousel-inner ">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="media/mechathon.jpeg" class="d-block w-100" alt="..." height="550px">
+        <img src="media/formula.jpeg" class="d-block w-100" alt="..." height="550px">
         <div class="carousel-caption d-none d-md-block cg">
-          <h5 style="color:white ;" >MECH-A-THON</h5>
-          <p style="color:white ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eius.</p>
+          <h5>FORMULA</h5>
+          <p>Time <br>19th March</p>
          <a href="event_register.php"> <button class="button1">REGISTER</button></a>
         </div>
       </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="media/mechathon.jpeg" class="d-block w-100" alt="..." height="550px">
-        <div class="carousel-caption d-none d-md-block cg">
-          <h5>TIME</h5>
-          <p>20th March </p>
-          <h5>PARTICIPATION POINTS</h5>
-          <p>250 POINTS</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="media/mechathon.jpeg" class="d-block w-100" alt="..." height="550px">
-        <div class="carousel-caption d-none d-md-block cg">
-          <h5>DEADLINE</h5>
-          <p>24th march 2023</p>
-        </div>
-      </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampledark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+    <div class="carousel-item" data-bs-interval="2000">
+    <a href="event_register.php"><img src="" class="d-block w-100" alt="..." height="550px">
+        <div class="carousel-caption d-none d-md-block cg">
+          <h5>Deadline</h5>
+          <p>24th March </p>
+        </div>
+      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampledark" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
